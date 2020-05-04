@@ -173,11 +173,11 @@ $welcomePageFontFamily: inherit;
 $welcomePageBackground: linear-gradient(-90deg, #1251AE 0%, #0074FF 50%, #1251AE 100%);
 $welcomePageTitleColor: #fff;
 
-$welcomePageHeaderBackground: none;
-$welcomePageHeaderBackgroundSmall: none;
-$welcomePageHeaderBackgroundPosition: none;
-$welcomePageHeaderBackgroundRepeat: none;
-$welcomePageHeaderBackgroundSize: none;
+$welcomePageHeaderBackground: url(../images/bar-background.png);
+$welcomePageHeaderBackgroundSmall: url(../images/bar-background.png);
+$welcomePageHeaderBackgroundPosition: center;
+$welcomePageHeaderBackgroundRepeat: no-repeat;
+$welcomePageHeaderBackgroundSize: cover;
 $welcomePageHeaderPaddingBottom: 0px;
 
 $welcomePageHeaderTextMarginTop: 35px;
@@ -185,7 +185,7 @@ $welcomePageHeaderTextMarginBottom: 35px;
 
 $welcomePageHeaderTextTitleMarginBottom: 16px;
 $welcomePageHeaderTextTitleFontSize: 2.5rem;
-$welcomePageHeaderTextTitleFontWeight: 500;
+$welcomePageHeaderTextTitleFontWeight: 700;
 $welcomePageHeaderTextTitleLineHeight: 1.18;
 $welcomePageHeaderTextTitleOpacity: 1;
 
